@@ -522,7 +522,7 @@ footer ul {
     flex-direction: row;
 
     height: 144px;
-    max-width: 274.67px;
+    width: 274.67px;
   }
   .populaires-cards .card-title {
     font-size: 14px;
@@ -583,6 +583,14 @@ footer ul {
     flex-direction: column;
     align-items: center;
   }
+  .card-herbergement-container .card {
+    width: 345px;
+    height: 207.25px;
+  }
+  .card-herbergement-container .card img {
+    width: 335px;
+    height: 124px;
+  }
 
   .section-titre {
     width: 375px;
@@ -597,10 +605,14 @@ footer ul {
   }
   .populaire-container .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     width: 335px;
-    height: 207.25px;
+    height: 144px;
+  }
+  .populaire-container .card img {
+    width: 110px;
+    object-fit: cover;
   }
   .populaires-cards .card-titre {
     display: flex;
@@ -620,6 +632,7 @@ footer ul {
     width: 193.5px;
     height: 200px;
     display: flex;
+
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
