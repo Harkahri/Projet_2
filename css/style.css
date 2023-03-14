@@ -68,7 +68,6 @@ input::placeholder {
 
 .header-navigation ul {
   display: flex;
-  align-items: center;
 
   width: 244px;
   height: 35px;
@@ -78,7 +77,7 @@ input::placeholder {
 
 .header-navigation .clicked a {
   border-top: 2px solid #0065fc;
-  padding-top: 16px;
+  padding-top: 13px;
   color: #0065fc;
 }
 
@@ -488,9 +487,10 @@ footer ul {
 
 @media (max-width: 1024px) {
   .main-container {
+    max-width: 1024px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
   }
   .header-container {
     display: flex;
@@ -558,23 +558,82 @@ footer ul {
 }
 
 @media (max-width: 767.98px) {
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  .info {
+    width: 335px;
+    height: 38px;
   }
+  .info-group {
+    height: 432px;
+  }
+  .filtre {
+    width: 335px;
+    margin: 0;
+  }
+  .headline {
+    width: 335px;
+  }
+  .search-container {
+    width: 335px;
+    height: 49px;
+  }
+  .filter {
+    margin: 0;
+  }
+  .filter-container {
+    width: 335px;
+    height: 161px;
+  }
+
+  .filter-bar {
+    width: 335px;
+    height: 161px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .main-container {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+  }
+  main {
+    align-items: normal;
+    max-width: 375px;
+    width: 375px;
+  }
+
   .header-container {
     display: flex;
     width: 375px;
+    flex-direction: column;
+  }
+  .header-logo {
+    margin: 30px;
+  }
+  .header-navigation {
+    width: 375px;
+    justify-content: center;
+  }
+  .header-navigation ul {
+    width: 375px;
+    justify-content: space-around;
+  }
+  .header-navigation .clicked a {
+    border-top: hidden;
+    border-bottom: 2px solid #0065fc;
+    padding: 15px;
   }
   .herbergement-populaire-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 375px;
   }
   .hebergement-container {
-    width: 375px;
+    width: 315px;
     height: 1435.5px;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    order: 1;
   }
 
   .card-herbergement-container {
@@ -584,11 +643,11 @@ footer ul {
     align-items: center;
   }
   .card-herbergement-container .card {
-    width: 345px;
+    width: 315px;
     height: 207.25px;
   }
   .card-herbergement-container .card img {
-    width: 335px;
+    width: 96.5%;
     height: 124px;
   }
 
@@ -600,24 +659,33 @@ footer ul {
     flex-wrap: wrap;
     flex-direction: column;
     gap: 0px;
-    width: 375px;
+    border-radius: 0;
+
+    width: 315px;
     height: 563px;
+
+    order: 0;
   }
   .populaire-container .card {
     display: flex;
     flex-direction: row;
 
-    width: 335px;
+    width: 315px;
     height: 144px;
   }
   .populaire-container .card img {
     width: 110px;
     object-fit: cover;
   }
-  .populaires-cards .card-titre {
+  .populaires-cards {
     display: flex;
     font-size: 14px;
     align-items: center;
+  }
+  .card-titre {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
   }
 
   .populaires-cards .card-subtitle {
@@ -625,21 +693,42 @@ footer ul {
   }
   .activity-container {
     display: flex;
-    width: 924px;
-    height: 250px;
+    flex-direction: column;
+    width: 375px;
+    height: 845px;
+    max-height: 965.02px;
+    margin-bottom: 20px;
+  }
+  .card-activity-titre {
+    justify-content: center;
+    width: 375px;
+    margin: 80px 0px 30px 0px;
+  }
+  .card-activity {
+    max-width: 375px;
+    width: 315px;
+    height: 200px;
   }
   .card-activity img {
-    width: 193.5px;
-    height: 200px;
+    width: 315px;
+    height: 141px;
+    max-width: 315px;
     display: flex;
 
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+
     padding: 0px;
   }
   .card-activity-subtitle {
     overflow-wrap: break-word;
     align-items: center;
+  }
+  .footer-container {
+    flex-direction: column;
+    width: 375px;
+    height: 461px;
+    margin: 50px 0 0 0;
+    justify-content: center;
+    bottom: 0;
   }
 }
