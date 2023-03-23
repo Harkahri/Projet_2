@@ -388,6 +388,7 @@ h3 + p {
 
 .activity-title {
   width: 100%;
+  margin-left: 35px;
   height: 30px;
 }
 /****** footer ***********/
