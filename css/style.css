@@ -590,10 +590,11 @@ h3 + p {
   }
   .activity-card {
     flex-direction: column;
-    width: 100%;
   }
-  .activity-card .card {
+
+  .activity-container .card {
     width: 100%;
+    max-width: 50%;
     height: 100%;
   }
 
