@@ -553,10 +553,10 @@ h3 + p {
   }
   .hebergement-cards {
     width: 100%;
-    max-width: 335px;
+    max-width: 395px;
     gap: 0;
     flex-direction: column;
-    margin: 0 50px 0 50px;
+    margin-left: 20px;
   }
 
   .populaires {
@@ -616,5 +616,9 @@ h3 + p {
   .assistance {
     width: 100%;
     height: 100%;
+  }
+  .hebergement-title .section-title,
+  .plus {
+    margin-left: 50px;
   }
 }
