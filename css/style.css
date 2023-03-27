@@ -84,6 +84,8 @@ footer {
   border-top: 2px solid var(--main-color);
 }
 .clicked a {
+  display: flex;
+
   color: var(--main-color);
 }
 
@@ -95,11 +97,16 @@ footer {
 .header-navigation,
 ul {
   display: flex;
+  margin: 0;
+  height: 50px;
   gap: 50px;
 }
 
-.header-navigation {
+.header-navigation ul a {
+  height: 100%;
+  margin-top: 14px;
   align-items: center;
+  justify-content: center;
   display: flex;
   margin: 0;
 }
