@@ -77,7 +77,7 @@ footer {
 .header-logo img {
   display: flex;
   max-height: 19px;
-  padding: 30px 30px 30px 50px;
+  padding: 30px 30px 30px 0px;
 }
 
 .clicked {
