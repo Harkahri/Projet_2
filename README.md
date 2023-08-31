@@ -1,9 +1,4 @@
-**# booki
-Booki est une agence de voyage, 
-elle propose un propose des services de réservation d'hébergement en ligne. 
-
-Merci pour cette soutenance ! :)
-**# Booki - Agence de Voyage en Ligne
+# Booki - Agence de Voyage en Ligne
 
 Bienvenue dans le README du projet Booki, un site d'agence de voyage en ligne. Dans ce projet, j'ai joué le rôle de développeur front-end, contribuant à la création d'une plateforme conviviale pour la recherche et la réservation de voyages. Ce README vous fournira un aperçu du projet, de mes contributions et des technologies utilisées.
 
@@ -53,3 +48,4 @@ Pour toute question ou collaboration, n'hésitez pas à me contacter.
 
 **Développeur Front-End:** Lucas O.
 **Date:** MAI 2023
+
